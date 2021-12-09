@@ -3,7 +3,7 @@ package com.aaludrajavabasicprograms;
 public class ArrayExample {
 	public void print()
 	{
-	int a[]=new int[4];
+	int a[]=new int [4];
 	a[0]=10;
 	a[1]=15;
 	a[2]=20;
