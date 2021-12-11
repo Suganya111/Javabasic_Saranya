@@ -1,9 +1,9 @@
 package com.aaludrajavabasicprograms;
 
-public class SingleInheritance {
+public class SingleInheritanceExample {
 	int Empid=21;
 	}
-class Emp extends SingleInheritance{
+class Emp extends SingleInheritanceExample{
 	String Name="sai";
 
 }

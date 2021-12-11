@@ -1,12 +1,12 @@
 package com.aaludrajavabasicprograms;
 
-public class Operators {
+public class OperatorsExample {//use different type of class names ex:OperatorExample
 	
 	public void arithmatic()
 	{
 		int a=5;
 		int b=4;
-	System.out.println(a+b);
+	System.out.println("Addition:"+a+b);// use some words inside of the print statement
 	System.out.println(a-b);
 	System.out.println(a*b);
 	System.out.println(a/b);
@@ -44,13 +44,14 @@ public class Operators {
 		System.out.println(!(a==b));
 		System.out.println(!(a>b));
 	}
+	
 	public void unary()
 	{
 		int a=9;
 		int b=2;
 		System.out.println(a++);
 		System.out.println(a--);
-		System.out.println(a+b);
+		System.out.println(a+b); //pre increment & decrement operator missing ex:++a,--a
 		System.out.println(a-b);
 		}
 	public void bitwise() {
@@ -74,7 +75,7 @@ public class Operators {
 		System.out.println((a+b)>15?true:false);	
 	}
 	    public static void main (String args[]) {
-		Operators op=new Operators();
+		OperatorsExample op=new OperatorsExample();
 		op.arithmatic();
 		op.assignment();
 	    op.relational();

@@ -1,9 +1,9 @@
 package com.aaludrajavabasicprograms;
 
-public class Encap {
+public class EncapExample {
 
 	public static void main(String[] args) {
-		EncapsulationProgram obj=new EncapsulationProgram();
+		EncapsulationProgramExample obj=new EncapsulationProgramExample();
 		obj.setAge(20);
 		obj.setName("Saraa");
 		obj.setId(1);

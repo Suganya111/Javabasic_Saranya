@@ -1,9 +1,9 @@
 package com.aaludrajavabasicprograms;
 
-public class SwitchExample {
+public class SwitchCaseExample {
 	public static void main(String args[]) {
-		int month=4;
-		String monthstring;
+		int month=7;
+		//unwanted string
 		switch(month) {
 		case 1:
 			System.out.println("January");

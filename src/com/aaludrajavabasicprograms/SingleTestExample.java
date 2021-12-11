@@ -1,6 +1,6 @@
 package com.aaludrajavabasicprograms;
 
-public class SingleTest {
+public class SingleTestExample {
 	public static void main(String args[]) {
 		Emp obj=new Emp();
 		System.out.println("Empid: " + obj.Empid );
