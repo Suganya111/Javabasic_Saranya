@@ -1,10 +1,10 @@
 package com.aaludrajavabasicprograms;
 
 public class SingleInheritanceExample {
-	int Empid=21;
+	int empid=21;
 	}
 class Emp extends SingleInheritanceExample{
-	String Name="sai";
+	String name="sai";
 
 }
 	
