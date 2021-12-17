@@ -2,6 +2,8 @@ package com.aaludrajavabasicprograms;
 
 public class AbstractMain {
 	public static void main(String args[]) {
+		AbstractShape obj2=new Circle();
+			obj2.shapes();
 		Square obj=new Square();
 		System.out.println("area of square is:"+obj.getarea(2.1));
 		System.out.println("perimeter of square is:"+obj.getperimeter(5.2));
