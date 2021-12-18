@@ -1,16 +1,17 @@
 package com.aaludrajavabasicprograms;
 
+//instead of storing in result variable we can directly print it
 public class MethodExample {//use CamelCase
 	public int addNumber(int a, int b) {
-		int sum = a + b;
-		return sum;
+
+		return a + b;
 	}
 
 	public static void main(String args[]) {
 		int num1 = 20;
 		int num2 = 15;
 		MethodExample obj = new MethodExample();
-		int result = obj.addNumber(num1, num2);
-		System.out.println("sum is:" + result);
+
+		System.out.println("sum is:" + obj.addNumber(num1, num2));
 	}
 }

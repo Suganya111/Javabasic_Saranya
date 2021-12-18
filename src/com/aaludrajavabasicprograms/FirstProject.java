@@ -1,6 +1,6 @@
 package com.aaludrajavabasicprograms;
 
-public class FirstProject {// use CamelCase
+public class FirstProject {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");

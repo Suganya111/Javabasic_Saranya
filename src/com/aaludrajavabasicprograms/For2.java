@@ -8,9 +8,7 @@ public class For2 extends ForInheritance {
 		
 		 for ( i=a; a<=10; a++) {
 			 for ( j=b; j<=a; j++) {
-					//if (a == 7) {
-						//continue;//unwanted spaces are printed.... put continue;
-					//} else
+
 						System.out.print(a);
 				}
 				System.out.println();
