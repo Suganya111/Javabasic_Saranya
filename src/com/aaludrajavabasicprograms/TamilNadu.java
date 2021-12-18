@@ -7,14 +7,14 @@ public class TamilNadu  extends AbstractExample {
 public static void main(String args[]) {
 	AbstractExample obj=new TamilNadu();
 	obj=new TamilNadu();
-	obj.breakfast();
-	obj.pancard();
-	obj.voteid();
+	obj.breakFast();
+	obj.panCard();
+	obj.voteId();
 	/*TamilNadu obj1=new TamilNadu();
 	obj1.culture();*/
 }
 @Override
-void breakfast() {
+void breakFast() {
 	System.out.println("Idly");
 	// TODO Auto-generated method stub
 	

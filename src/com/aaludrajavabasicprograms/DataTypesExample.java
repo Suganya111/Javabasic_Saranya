@@ -7,7 +7,7 @@ public class DataTypesExample {
 		double d = 5.58246;
 		float f = 4.3758f;
 		boolean c = true;
-		if (c == true) // unwanted condition
+
 		System.out.println("Boolean:" + c);
 		String s = "Aaludra";
 		System.out.println("String:" + s);

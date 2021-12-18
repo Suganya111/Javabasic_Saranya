@@ -1,5 +1,8 @@
 package com.aaludrajavabasicprograms;
 
+//id declaration we don't need {} braces
+//class name must be changed
+//Set method inside constructor is not needed, 
 public class MultilevelInheritance1 extends MultilevelInheritance {
 private int id;{
 	

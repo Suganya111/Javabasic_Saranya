@@ -1,12 +1,12 @@
 package com.aaludrajavabasicprograms;
 
-public class OperatorsExample {//use different type of class names ex:OperatorExample
+public class OperatorsExample {
 	
 	public void arithmatic()
 	{
 		int a=5;
 		int b=4;
-	System.out.println("Addition:"+a+b);// use some words inside of the print statement
+		System.out.println("Addition:" + a + b);
 	System.out.println(a-b);
 	System.out.println(a*b);
 	System.out.println(a/b);
@@ -51,7 +51,7 @@ public class OperatorsExample {//use different type of class names ex:OperatorEx
 		int b=2;
 		System.out.println(a++);
 		System.out.println(a--);
-		System.out.println(a+b); //pre increment & decrement operator missing ex:++a,--a
+		System.out.println(a + b);
 		System.out.println(a-b);
 		}
 	public void bitwise() {

@@ -1,9 +1,8 @@
 package com.aaludrajavabasicprograms;
 
+//unwanted method
 public class ForInheritance {
 int i;
 int j;
-	public void dis() {
 	
-}
 }

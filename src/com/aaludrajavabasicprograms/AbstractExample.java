@@ -1,12 +1,13 @@
 package com.aaludrajavabasicprograms;
 
 abstract class AbstractExample {
-		abstract void breakfast();
+	abstract void breakFast();
 		
-	public void pancard() {
+	public void panCard() {
 		System.out.println("pan card");
 	}
-	public void voteid() {
+
+	public void voteId() {
 		System.out.println("vote id");
 	}
 	}

@@ -13,11 +13,7 @@ public class InterfaceExampleMath implements InterfaceExample {
 		System.out.println("Blue");
 		
 	}
-	public static void main(String args[]) {
-		InterfaceExample obj=new InterfaceExampleMath();
-		obj.shape();
-		obj.colour();
-	}
+
 	}
 
 

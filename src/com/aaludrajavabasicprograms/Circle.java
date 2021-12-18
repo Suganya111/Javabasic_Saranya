@@ -4,15 +4,14 @@ public class Circle extends AbstractShape  {
 
 	@Override
 	double getperimeter(double d) {
-		double perimeter=2* Math.PI *d;
-		return perimeter;
+
+		return 2 * Math.PI * d;
 	}
 
 	@Override
 	double getarea(double d) {
 		 
-		double area = Math.PI*d*d ;
-		return area;  
+		return Math.PI * d * d;
 	}
 	
 }

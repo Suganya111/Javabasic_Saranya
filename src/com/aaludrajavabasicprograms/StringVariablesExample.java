@@ -1,5 +1,6 @@
 package com.aaludrajavabasicprograms;
 
+
 public class StringVariablesExample {
 	public static void main(String args[]) {
 		String s1="Hello";
