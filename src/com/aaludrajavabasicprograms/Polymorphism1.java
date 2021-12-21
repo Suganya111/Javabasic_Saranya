@@ -1,13 +1,13 @@
 package com.aaludrajavabasicprograms;
 
 //class name must be meaningful
-public class Polymorphism1 extends PolymorphismExample {
+public class Polymorphism1 extends PolymorphismExample1 {
 	public void shape() {
 		System.out.println("Circle");
 	}
 
 	public static void main(String args[]) {
-		PolymorphismExample obj = new PolymorphismExample();
+		PolymorphismExample1 obj = new PolymorphismExample1();
 		{
 			obj.shape();
 			obj = new Polymorphism1();

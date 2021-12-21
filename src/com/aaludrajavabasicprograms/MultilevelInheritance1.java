@@ -3,12 +3,12 @@ package com.aaludrajavabasicprograms;
 //id declaration we don't need {} braces
 //class name must be changed
 //Set method inside constructor is not needed, 
-public class MultilevelInheritance1 extends MultilevelInheritance {
+public class MultilevelInheritance1 extends MultilevelInheritanceExample {
 private int id;{
 	
 }
 	MultilevelInheritance1(String name,int id) {
-		super(name);
+		//super(name);
 		setId(id);
 			
 		}
@@ -20,7 +20,7 @@ private int id;{
 		
 	}
 		public void display() {
-			super.disply();
+			//super.disply();
 			System.out.println("id= " +id);
 			
 		}
