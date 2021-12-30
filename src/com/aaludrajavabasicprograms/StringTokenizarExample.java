@@ -15,6 +15,6 @@ public class StringTokenizarExample {
 		System.out.println("Next Token is:" + st2.nextToken());
 
 		StringTokenizer st3 = new StringTokenizer("java is a programing language");
-		System.out.println("Total Token is:" + st3.nextToken());
+		System.out.println("Total Token is:" + st3.countTokens());
 	}
 }

@@ -10,7 +10,7 @@ public class ThreadMain {
 		
 obj1.start();
 obj.start();
-if(obj..isAlive()){
+if(obj.isAlive()){
 	System.out.println("Still excuting");
 }
 obj1.join();
