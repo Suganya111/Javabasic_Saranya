@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 
 public class RegexExample4 {
 	public static void main(String args[]) {
-String mobile="KM 113";
-String regex=("^[A-Z_ ]{1,2} [0-9]{1,3}$");
+String mobile="KM 173";
+String regex=("^[A-Z _]{1,2} [0-9]{1,3}$");
 Pattern p=Pattern.compile(regex);
 Matcher m=p.matcher(mobile);
 if(m.find()) {
